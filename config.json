@@ -1,0 +1,102 @@
+{
+  "name": "IVAN",
+  "username": "ivan-calcina",
+  "subtitle": "MI ESPACIO PERSONAL",
+  "bio": "Bienvenido a mi rincón de internet.",
+  "location": "PERÚ",
+  "status": "",
+  "avatar": "https://avatars.githubusercontent.com/u/316655015?v=4",
+  "badges": [],
+  "theme": {
+    "accent": "#ffffff",
+    "secondary": "#e85a63",
+    "background": "#08090b",
+    "text": "#ffffff",
+    "opacity": 50,
+    "blur": 18,
+    "radius": 26,
+    "font": "sans",
+    "alignment": "center",
+    "layout": "forest",
+    "buttonStyle": "glass",
+    "glow": true,
+    "gradient": false,
+    "animatedTitle": "none"
+  },
+  "effects": {
+    "background": "stars",
+    "density": 42,
+    "cursorTrail": false,
+    "cardTilt": false,
+    "animatedOrbs": true
+  },
+  "media": {
+    "backgroundImage": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=2000&q=85",
+    "backgroundVideo": "",
+    "music": "",
+    "songName": "Mi canción favorita",
+    "introEnabled": false,
+    "introTitle": "BIENVENIDO A MI ESPACIO",
+    "introSubtitle": "Haz clic para entrar",
+    "songArtist": "",
+    "musicCover": ""
+  },
+  "links": [
+    {
+      "title": "Discord",
+      "url": "https://discord.com/",
+      "icon": "discord",
+      "visible": true
+    },
+    {
+      "title": "Xbox",
+      "url": "https://www.xbox.com/",
+      "icon": "xbox",
+      "visible": true
+    },
+    {
+      "title": "Spotify",
+      "url": "https://open.spotify.com/",
+      "icon": "spotify",
+      "visible": true
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Ivan-calcina",
+      "icon": "github",
+      "visible": true
+    },
+    {
+      "title": "Twitch",
+      "url": "https://www.twitch.tv/",
+      "icon": "twitch",
+      "visible": true
+    },
+    {
+      "title": "TikTok",
+      "url": "https://www.tiktok.com/",
+      "icon": "tiktok",
+      "visible": true
+    },
+    {
+      "title": "Steam",
+      "url": "https://store.steampowered.com/",
+      "icon": "steam",
+      "visible": true
+    }
+  ],
+  "widgets": {
+    "showStatus": false,
+    "showLocation": true,
+    "showClock": false,
+    "showProjects": false,
+    "skills": [],
+    "quote": "",
+    "projects": [],
+    "showFriendCard": true,
+    "friendName": "MI TARJETA",
+    "friendSubtitle": "Personalízala desde el editor",
+    "friendAvatar": ""
+  },
+  "customCss": ""
+}
