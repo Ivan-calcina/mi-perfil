@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0912">
+  <title>VANTA NOCHE — Editor de perfiles</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="forest.css?v=forest-editor-2">
+</head>
+<body class="editor-page">
+  <div class="studio-shell">
+    <aside class="studio-sidebar">
+      <div class="studio-brand"><span class="brand-logo">✦</span><span><b>VANTA</b><small>NOCHE / PROFILE STUDIO</small></span></div>
+      <div class="sidebar-caption">TU ESPACIO CREATIVO</div>
+      <nav class="studio-nav" aria-label="Secciones del editor">
+        <button class="nav-item active" data-tab="identity"><span>◉</span> Identidad</button>
+        <button class="nav-item" data-tab="style"><span>◈</span> Apariencia</button>
+        <button class="nav-item" data-tab="effects"><span>✳</span> Efectos</button>
+        <button class="nav-item" data-tab="media"><span>♫</span> Multimedia</button>
+        <button class="nav-item" data-tab="links"><span>↗</span> Mis enlaces</button>
+        <button class="nav-item" data-tab="widgets"><span>▦</span> Widgets</button>
+        <button class="nav-item" data-tab="advanced"><span>⌘</span> Avanzado</button>
+      </nav>
+      <div class="sidebar-bottom"><span class="status-indicator"></span> Sin cuenta · 100% estático <small>Los borradores se guardan en este navegador.</small></div>
+    </aside>
+    <div class="studio-workspace">
+      <header class="studio-header">
+        <div class="crumbs">TU ESPACIO <span>/</span> <b>PERSONALIZAR</b></div>
+        <div class="header-actions">
+          <span class="draft-status" id="draft-status">Cargando perfil…</span><button class="ui-btn ghost" type="button" id="restore-draft" hidden>↶ Recuperar borrador</button><button class="ui-btn ghost" type="button" id="load-published">↻ Perfil publicado</button>
+          <a class="ui-btn ghost" href="./index.html" target="_blank" rel="noopener">Ver página ↗</a>
+          <button class="ui-btn primary" id="export-top">↓ Exportar JSON</button>
+        </div>
+      </header>
+      <main class="studio-main">
+        <section class="edit-pane" aria-label="Opciones de personalización">
+          <div class="section-topline">VANTA NIGHT STUDIO <span>✦</span> PANEL DE CONTROL</div>
+          <h1 id="section-title">Tu identidad digital<span class="title-dot">.</span></h1>
+          <p class="section-description" id="section-description">Personaliza cada detalle. Los cambios se ven en tiempo real.</p>
+          <div id="editor-fields" class="editor-fields"></div>
+          <div class="editor-bottom"><button id="save-draft" class="ui-btn secondary">Guardar borrador</button><span>Para publicarlo, exporta y sube el JSON a GitHub.</span></div>
+        </section>
+        <aside class="preview-pane" aria-label="Vista previa de tu perfil">
+          <div class="preview-header"><div><span class="live-dot"></span> VISTA PREVIA <small>ACTUALIZACIÓN EN VIVO</small></div><div class="preview-devices"><button class="device-button active" data-preview="desktop" title="Vista escritorio">▣</button><button class="device-button" data-preview="mobile" title="Vista móvil">▯</button></div></div>
+          <div class="preview-outer"><div class="preview-window" id="preview-window"><div id="preview-root"></div></div></div>
+          <div class="preview-note">✦ La vista previa abre con el perfil publicado. Tus cambios se guardan como borrador local.</div>
+        </aside>
+      </main>
+    </div>
+  </div>
+  <input type="file" id="import-input" accept=".json,application/json" hidden>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="profile.js?v=forest-editor-2"></script>
+  <script src="forest.js?v=forest-editor-2"></script>
+  <script src="editor.js?v=forest-editor-2"></script>
+</body>
+</html>
