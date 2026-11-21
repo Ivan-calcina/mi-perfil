@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d10">
+  <title>VANTA NOCTURNO — Editor nuevo</title>
+  <meta name="description" content="Editor de tu perfil Bosque Nocturno con vista previa en vivo.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=nb3">
+  <link rel="stylesheet" href="forest.css?v=nb3">
+  <link rel="stylesheet" href="editor-bosque.css?v=nb3">
+</head>
+<body class="night-editor">
+  <div class="night-app">
+    <aside class="night-side">
+      <a class="night-brand" href="./index.html" title="Abrir perfil"><span class="night-mark">✧</span><span><strong>VANTA</strong><small>NOCTURNO · STUDIO 2.0</small></span></a>
+      <div class="side-heading">PERSONALIZACIÓN</div>
+      <nav class="night-nav" aria-label="Secciones del editor">
+        <button data-section="perfil" class="selected"><span>◉</span> Perfil</button>
+        <button data-section="fondo"><span>◫</span> Fondo y estilo</button>
+        <button data-section="tarjeta"><span>▣</span> Tarjeta central</button>
+        <button data-section="redes"><span>↗</span> Redes sociales</button>
+        <button data-section="musica"><span>♫</span> Reproductor</button>
+        <button data-section="efectos"><span>✳</span> Efectos</button>
+        <button data-section="avanzado"><span>⌘</span> Opciones</button>
+      </nav>
+      <div class="night-side-foot"><span class="pulse-dot"></span> EDITOR INDEPENDIENTE <p>La página pública no cambia hasta que subas <code>config.json</code> a GitHub.</p></div>
+    </aside>
+    <main class="night-main">
+      <header class="night-top">
+        <div><span class="tiny-upper">MI ESPACIO</span><span class="path-divider"> / </span><strong>EDITOR DE BOSQUE</strong></div>
+        <div class="night-actions">
+          <span id="save-status" class="save-status" role="status">Cargando...</span>
+          <a class="small-btn subdued" href="./index.html" target="_blank" rel="noopener">Ver perfil ↗</a>
+          <button class="small-btn highlighted" id="download-config" type="button">↓ Exportar JSON</button>
+        </div>
+      </header>
+      <div class="night-grid">
+        <section class="night-controls" aria-label="Configuración">
+          <div class="night-kicker">✦ VANTA / NIGHT EDITOR</div>
+          <h1 id="panel-title">Edita tu perfil<span>.</span></h1>
+          <p id="panel-intro" class="night-intro">Cada cambio aparece al instante en la vista previa.</p>
+          <div class="origin-strip"><span class="origin-icon">✓</span><div><strong>Diseño nuevo activo</strong><small>Vista previa del bosque nocturno, no del editor anterior.</small></div></div>
+          <div id="fields" class="night-fields"></div>
+        </section>
+        <section class="night-preview-area" aria-label="Vista previa de tu perfil">
+          <div class="preview-bar"><div><span class="pulse-dot"></span><b>VISTA PREVIA EN VIVO</b><small> · bosque nocturno</small></div><div class="view-switch"><button id="desk-view" class="current" type="button" title="Vista de escritorio" aria-label="Vista escritorio">▣</button><button id="phone-view" type="button" title="Vista de móvil" aria-label="Vista móvil">▯</button></div></div>
+          <div class="night-preview-frame"><div id="preview-viewport"><div id="night-preview-root"></div></div></div>
+          <div class="preview-caption">Los cambios se guardan como borrador <strong>solo en este navegador</strong>. Para publicarlos: Exportar JSON → reemplazar <code>config.json</code> en GitHub.</div>
+        </section>
+      </div>
+    </main>
+  </div>
+  <input type="file" id="json-import" accept=".json,application/json" hidden>
+  <div id="night-toast" class="night-toast" role="status" aria-live="polite"></div>
+  <script src="profile.js?v=nb3"></script>
+  <script src="forest.js?v=nb3"></script>
+  <script src="editor-bosque.js?v=nb3"></script>
+</body>
+</html>
