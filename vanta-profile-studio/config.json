@@ -1,0 +1,61 @@
+{
+  "name": "NOCTIS",
+  "username": "noctis.dev",
+  "subtitle": "DISEÑADOR DIGITAL · CREADOR",
+  "bio": "Transformando ideas en experiencias. Un rincón de internet hecho a mi manera.",
+  "location": "En algún lugar de la red",
+  "status": "Construyendo algo nuevo",
+  "avatar": "",
+  "badges": ["✦ CREATOR", "⌘ DEV", "☾ NIGHT OWL"],
+  "theme": {
+    "accent": "#aa77ff",
+    "secondary": "#4bdded",
+    "background": "#080714",
+    "text": "#f5f1ff",
+    "opacity": 76,
+    "blur": 22,
+    "radius": 26,
+    "font": "space",
+    "alignment": "center",
+    "layout": "compact",
+    "buttonStyle": "glass",
+    "glow": true,
+    "gradient": true,
+    "animatedTitle": "shine"
+  },
+  "effects": {
+    "background": "stars",
+    "density": 56,
+    "cursorTrail": true,
+    "cardTilt": false,
+    "animatedOrbs": true
+  },
+  "media": {
+    "backgroundImage": "",
+    "backgroundVideo": "",
+    "music": "",
+    "songName": "Mi canción favorita",
+    "introEnabled": false,
+    "introTitle": "BIENVENIDO A MI ESPACIO",
+    "introSubtitle": "Haz clic para entrar"
+  },
+  "links": [
+    {"title": "Mi GitHub", "url": "https://github.com/", "icon": "github", "visible": true},
+    {"title": "Mi Instagram", "url": "https://instagram.com/", "icon": "instagram", "visible": true},
+    {"title": "Discord", "url": "https://discord.com/", "icon": "discord", "visible": true},
+    {"title": "Mi portafolio", "url": "https://example.com/", "icon": "globe", "visible": true}
+  ],
+  "widgets": {
+    "showStatus": true,
+    "showLocation": true,
+    "showClock": false,
+    "showProjects": true,
+    "skills": ["Diseño", "Código", "Creatividad"],
+    "quote": "Lo extraordinario comienza con una idea.",
+    "projects": [
+      {"title": "Mi universo digital", "description": "Un proyecto que estoy creando.", "url": "https://github.com/", "tag": "WEB"},
+      {"title": "Experimentos visuales", "description": "Interacciones y efectos a mi estilo.", "url": "https://github.com/", "tag": "CREATIVE"}
+    ]
+  },
+  "customCss": ""
+}
