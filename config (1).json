@@ -1,0 +1,99 @@
+{
+  "name": "Ivan",
+  "username": "noctis.dev",
+  "subtitle": "RWEOR",
+  "bio": "Transformando ideas en experiencias. Un rincón de internet hecho a mi manera.",
+  "location": "En algún lugar de la red",
+  "status": "Construyendo algo nuevo",
+  "avatar": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTJtd2dyZXFibWhxcWVrZGFoM3I5a3ZmZnpyb21vczNvc3pyMGhibSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/WW5p7jd8ImZ16q4w2r/giphy.gif",
+  "badges": [
+    "✦ CREATOR",
+    "⌘ DEV",
+    "☾ NIGHT OWL"
+  ],
+  "theme": {
+    "accent": "#ff6382",
+    "secondary": "#ffc076",
+    "background": "#140911",
+    "text": "#fff1f3",
+    "opacity": 47,
+    "blur": 22,
+    "radius": 20,
+    "font": "sans",
+    "alignment": "center",
+    "layout": "wide",
+    "buttonStyle": "outline",
+    "glow": true,
+    "gradient": true,
+    "animatedTitle": "neon"
+  },
+  "effects": {
+    "background": "rain",
+    "density": 100,
+    "cursorTrail": true,
+    "cardTilt": false,
+    "animatedOrbs": true
+  },
+  "media": {
+    "backgroundImage": "",
+    "backgroundVideo": "https://cdn.pixabay.com/video/2015/08/11/306-135919105_large.mp4",
+    "music": "",
+    "songName": "Mi canción favorita",
+    "introEnabled": false,
+    "introTitle": "BIENVENIDO A MI ESPACIO",
+    "introSubtitle": "Haz clic para entrar"
+  },
+  "links": [
+    {
+      "title": "Mi GitHub",
+      "url": "https://github.com/",
+      "icon": "github",
+      "visible": true
+    },
+    {
+      "title": "Mi Instagram",
+      "url": "https://instagram.com/",
+      "icon": "instagram",
+      "visible": true
+    },
+    {
+      "title": "Discord",
+      "url": "https://discord.com/",
+      "icon": "discord",
+      "visible": true
+    },
+    {
+      "title": "Mi portafolio",
+      "url": "https://example.com/",
+      "icon": "globe",
+      "visible": true
+    }
+  ],
+  "widgets": {
+    "showStatus": true,
+    "showLocation": true,
+    "showClock": false,
+    "showProjects": true,
+    "skills": [
+      "Diseño",
+      "Código",
+      "Creatividad"
+    ],
+    "quote": "Lo extraordinario comienza con una idea.",
+    "projects": [
+      {
+        "title": "Mi universo digital",
+        "description": "Un proyecto que estoy creando.",
+        "url": "https://github.com/",
+        "tag": "WEB"
+      },
+      {
+        "title": "Experimentos visuales",
+        "description": "Interacciones y efectos a mi estilo.",
+        "url": "https://github.com/",
+        "tag": "CREATIVE"
+      }
+    ]
+  },
+  "customCss": "dcccccccccccccccccccccc"
+}
