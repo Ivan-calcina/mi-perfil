@@ -35,3 +35,26 @@
 @keyframes forest-aura{50%{box-shadow:0 0 27px rgba(147,123,255,.56),0 0 52px rgba(255,160,120,.2)}}@keyframes forest-breathe{to{transform:translateX(10%) scale(1.04);opacity:.32}}@keyframes forest-fall{to{transform:translate(-70px,150px) rotate(120deg)}}
 @media(max-width:600px){.forest-stage{padding:88px 17px 70px;min-height:100svh}.forest-avatar{width:108px;height:108px}.forest-name{font-size:36px}.forest-subtitle{font-size:13px}.forest-socials{gap:12px}.forest-brand{width:26px;height:26px}.forest-friend-avatar{width:57px;height:57px}.forest-friend{padding:10px}.forest-friend-head{font-size:14px}.forest-player{margin-top:45px;grid-template-columns:52px minmax(0,1fr) 36px;gap:9px}.forest-album{width:52px;height:52px}.forest-track-name{font-size:12px}.forest-sound{width:43px;height:43px;left:12px;top:12px;font-size:22px}}
 @media(prefers-reduced-motion:reduce){.forest-avatar,.forest-fog,.forest-particle{animation:none!important}}
+
+/* Editor nocturno V2: combina el panel de edición con el perfil de bosque. */
+[hidden]{display:none!important}
+.editor-page{background:#08090b;color:#f6f5f5}
+.editor-page .studio-sidebar{background:#0c0d10;border-right-color:#292b30}
+.editor-page .studio-header{background:#0c0d10;border-bottom-color:#292b30}
+.editor-page .studio-brand .brand-logo{background:conic-gradient(from 25deg,#39a8ff,#bb88f4,#e97a9e,#f9bc70,#39a8ff);color:#0c0d10;box-shadow:0 0 26px rgba(170,155,223,.25)}
+.editor-page .studio-brand small,.editor-page .sidebar-caption{color:#8f9097}
+.editor-page .studio-nav .nav-item.active{background:linear-gradient(95deg,#282a30,#17181d);border-color:#535761;color:#fff}
+.editor-page .studio-nav .nav-item.active>span{color:#f2a9c9}
+.editor-page .studio-nav .nav-item:hover{background:#1e2025}
+.editor-page .section-topline,.editor-page .title-dot{color:#e4a1c8}
+.editor-page .edit-group{background:#121318;border-color:#303137}
+.editor-page .ui-btn.primary{background:#e7e7ec;border-color:#e7e7ec;color:#121217}
+.editor-page .ui-btn.ghost{background:#1a1b21;border-color:#373940}
+.editor-page .ui-btn.secondary{background:#25262d;border-color:#4c4e58}
+.editor-page .edit-group input:not([type='checkbox']):not([type='color']):not([type='range']),.editor-page .edit-group textarea,.editor-page .edit-group select{background:#1d1e24;border-color:#363840}
+.editor-page .edit-group input[type='range']{accent-color:#f2add0}
+.editor-page .preview-outer{background:#111216;border-color:#34363c}
+.editor-page .preview-window{background:#08090b}
+.editor-page .nav-item,.editor-page .group-head span{transition:background .2s}
+@media(max-width:1100px){.editor-page .header-actions{flex-wrap:wrap;justify-content:flex-end}}
+@media(max-width:700px){.editor-page .header-actions .ui-btn{font-size:10px;padding:8px 9px}.editor-page .draft-status{display:none}}
